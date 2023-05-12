@@ -17,3 +17,4 @@ spacy==3.5.1
 fr-core-news-lg==3.5.0
 fasttext==0.9.2
 nltk==3.8.1
+transformers==4.28.1
