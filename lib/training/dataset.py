@@ -17,7 +17,6 @@ from __future__ import division
 #---------------------------------------------------------------------- MODULES
 import torch
 from torch.utils.data import Dataset
-from transformers import FlaubertTokenizer
 
 
 #------------------------------------------------------------------------ CLASS
@@ -48,3 +47,4 @@ class CommentDataset(Dataset):
             "attention_mask": encoding["attention_mask"].flatten(),
             "labels": torch.tensor(label, dtype=torch.long)
         }
+    
